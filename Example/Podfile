@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PickerDCSTime_Example' do
+  pod 'PickerDCSTime', :path => '../'
+
+  target 'PickerDCSTime_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
